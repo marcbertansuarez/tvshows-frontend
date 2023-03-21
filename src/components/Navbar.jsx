@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 export default function Navbar() {
   return (
     <div>
-      {/* ITERATION 1: Should use react-router-dom NavLinks to browse through the different pages */}
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/new">New Show</NavLink>
+      <NavLink to="">Go Back</NavLink>
     </div>
   )
 }
